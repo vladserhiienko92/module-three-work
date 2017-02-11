@@ -3,6 +3,13 @@
 /*  1. Variables
 /* ----------------------------------------------------------- */
 
+$font_proxima_semibold: "Proxima Nova SemiBold";
+$font_proxima_bold: "Proxima Nova Bold";
+$font_ptsans: 'PT Sans', sans-serif;
+$white_color: #fff;
+$white_color_sec: #fefdfd;
+$bg_color: #ebebeb;
+$text_color: #665f60;
 
 
 /* ----------------------------------------------------------- */
@@ -17,6 +24,25 @@
 	        transition: all $duration ease-in-out;
 }
 
-@mixin my_button() {
-	
+@mixin subheader($color) {
+	font: 36px $font_proxima_semibold;
+	text-transform: uppercase;
+	color: $color;
+}
+
+@mixin my_button($width, $height, $bg_color, $color) {
+	display: inline-block;
+	text-align: center;
+	font: 20px $font_ptsans;
+	font-style: italic;
+	line-height: $height;
+	width: $width;
+	height: $height;
+	background-color: $bg_color;
+	color: $color;
+	text-decoration: none;
+	&:hover {
+		background: $color;
+		color: $white_color_sec;
+	}
 }

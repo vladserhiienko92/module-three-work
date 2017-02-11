@@ -2,10 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Creative Digital Project</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="assets/plugins/slick/slick/slick.css"/>
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/style.css">
 		<script src="assets/js/jquery.js"></script>
+		<script src="assets/plugins/slick/slick/slick.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/scripts.js"></script>
 	</head>
@@ -13,7 +17,62 @@
 		<!--=============  Header Section =============-->
 		
 		<header>
-
+			<div class="container">
+				<div class="row header-menu sticky">
+					<div class="col-md-1 col-sm-12 col-xs-2">
+						<div class="logo">
+							<a href="#">
+								<img src="assets/img/logo.svg" alt="logo">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-11 col-sm-12 col-xs-10">
+						<nav class="menu-nav">
+							<ul>
+								<li class="menu-item">
+									<a href="#">Home</a>
+								</li>
+								<li class="menu-item">
+									<a href="#about">About</a>
+								</li>
+								<li class="menu-item">
+									<a href="#description">Services</a>
+								</li>
+								<li class="menu-item">
+									<a href="#works">Works</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Contant</a>
+								</li>
+							</ul>
+							<a href="#" class="mobile-icon">
+								<i></i>
+							</a>
+						</nav>
+					</div>
+					<div class="mobile-menu">
+						<ul>
+							<li class="mobile-menu-item">
+								<a href="#">Home</a>
+							</li>
+							<li class="mobile-menu-item">
+								<a href="#about">About</a>
+							</li>
+							<li class="mobile-menu-item">
+								<a href="#description">Services</a>
+							</li>
+							<li class="mobile-menu-item">
+								<a href="#">Works</a>
+							</li>
+							<li class="mobile-menu-item">
+								<a href="#">Contant</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<h1 class="main-header">Creative Digital Project</h1>
+				<h2 class="main-subheader">Duis mollis, est non commodo luctus, <br> nisi erat porttitor ligula, eget lacinia odio sem nec elit.</h2>
+			</div>
 		</header>
 
 		<!--=========  End of Header Section ==========-->
@@ -21,7 +80,432 @@
 		<!--=============  Main Section =============-->
 		
 		<main>
+
+			<!--=============  About Section =============-->
 			
+			<section id="about">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 about-left">
+							<img src="assets/img/about-icon.png" alt="about-icon">
+							<h3>About US</h3>
+						</div>
+						<div class="col-md-7 col-md-offset-1">
+							<div class="about-right">
+								<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br>
+								<br>
+								Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+								<a href="#" class="about-button">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--=========  End of About Section ==========-->
+
+			<!--=========  Description Section ==========-->
+			
+			<section id="description">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 small-padding">
+							<div class="small-box">
+								<img src="assets/img/descr-icon1.png" alt="descr-icon1">
+								<h4>Graphic Design</h4>
+								<p>Cras mattis consectetur <br> purus sit amet fermentum.</p>
+							</div>
+							<div class="small-box white">
+								<img src="assets/img/descr-icon3.png" alt="descr-icon3">
+								<h4>Seo &amp; Marketing</h4>
+								<p>Cras mattis consectetur <br> purus sit amet fermentum.</p>
+							</div>
+						</div>
+						<div class="col-md-4 small-padding">
+							<div class="small-box white">
+								<img src="assets/img/descr-icon2.png" alt="descr-icon2">
+								<h4>Web Development</h4>
+								<p>Cras mattis consectetur <br> purus sit amet fermentum.</p>
+							</div>
+							<div class="small-box">
+								<img src="assets/img/descr-icon4.png" alt="descr-icon4">
+								<h4>Mobile Development</h4>
+								<p>Cras mattis consectetur <br> purus sit amet fermentum.</p>
+							</div>
+						</div>
+						<div class="col-md-4 small-padding">
+							<div class="big-box">
+								<img src="assets/img/descr-icon5.png" alt="descr-icon5">
+								<h3>Our Services</h3>
+								<p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.” <br><strong>- Borat -</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--=========  End of Description Section ==========-->
+
+			<!--=========  Works Section ==========-->
+
+			<section id="works">
+				<div class="container">
+					<div class="works-header">
+						<img src="assets/img/works-icon.png" alt="works-icon">
+						<h3>Recent Works</h3>
+					</div>
+					<div class="work-slider">
+						<div class="slide">
+							<img src="assets/img/work-slider-img.jpg" alt="work-slider-img">
+						</div>
+						<div class="slide">
+							<img src="assets/img/work-slider-img.jpg" alt="work-slider-img">
+						</div>
+						<div class="slide">
+							<img src="assets/img/work-slider-img.jpg" alt="work-slider-img">
+						</div>
+						<div class="slide">
+							<img src="assets/img/work-slider-img.jpg" alt="work-slider-img">
+						</div>
+					</div>
+					<button type="button" class="works-button">View Gallery</button>
+				</div>
+			</section>
+
+			<!--=========  Team Section ==========-->
+
+			<section id="team">
+				<div class="container">
+					<div class="team-header">
+						<img src="assets/img/team-icon.png" alt="team-icon">
+						<h4>Meet our team</h4>
+					</div>
+					<div class="team-slider">
+						<div class="row slide">
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img1.png" alt="team-img1">
+								<div class="info-block">
+									<h4>Miguel Obrien</h4>
+									<p>CEO &amp; Founder</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img2.png" alt="team-img2">
+								<div class="info-block">
+									<h4>Jackie Carroll</h4>
+									<p>Art Director</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-behance" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img3.png" alt="team-img3">
+								<div class="info-block">
+									<h4>Ida Morrison</h4>
+									<p>Designer</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-behance" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row slide">
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img1.png" alt="team-img1">
+								<div class="info-block">
+									<h4>Miguel Obrien</h4>
+									<p>CEO &amp; Founder</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img2.png" alt="team-img2">
+								<div class="info-block">
+									<h4>Jackie Carroll</h4>
+									<p>Art Director</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-behance" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img3.png" alt="team-img3">
+								<div class="info-block">
+									<h4>Ida Morrison</h4>
+									<p>Designer</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-behance" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row slide">
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img1.png" alt="team-img1">
+								<div class="info-block">
+									<h4>Miguel Obrien</h4>
+									<p>CEO &amp; Founder</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img2.png" alt="team-img2">
+								<div class="info-block">
+									<h4>Jackie Carroll</h4>
+									<p>Art Director</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-behance" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 slide-block">
+								<img src="assets/img/team-img3.png" alt="team-img3">
+								<div class="info-block">
+									<h4>Ida Morrison</h4>
+									<p>Designer</p>
+									<div class="social-block">
+										<ul>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-behance" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-linkedin" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-google-plus" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-facebook" aria-hidden="true"></i>
+												</a>
+											</li>
+											<li class="team-social-link">
+												<a href="#">
+													<i class="fa fa-twitter" aria-hidden="true"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--=========  End of Team Section ==========-->
+
+			
+
+			<!--=========  End of Works Section ==========-->
+
 		</main>
 
 		<!--=========  End of Main Section ==========-->
@@ -29,7 +513,43 @@
 		<!--=============  Footer Section =============-->
 		
 		<footer>
-			
+			<div class="container">
+				<div class="col-md-4 col-sm-12">
+					<p class="copyright">©2014 <strong>tulus</strong>driyo . All Rights Reserved.</p>
+				</div>
+				<div class="col-md-8 col-sm-12">
+					<div class="social-block footer-social">
+						<ul>
+							<li class="team-social-link">
+								<a href="#">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="team-social-link">
+								<a href="#">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="team-social-link">
+								<a href="#">
+									<i class="fa fa-google-plus" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="team-social-link">
+								<a href="#">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="team-social-link">
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="to-the-top"></a>
 		</footer>
 
 		<!--=========  End of Footer Section ==========-->
